@@ -1,0 +1,18 @@
+<config>
+	<dbconfig>		
+		<database>
+			<hostname>newdev</hostname>
+			<dbname>ddb02</dbname>
+			<dbtype>Oracle</dbtype>
+			<driver>oracle.jdbc.driver.OracleDriver</driver>
+			<url>jdbc:oracle:thin:@dbhost.com:1521:ddb02</url>
+		</database>
+    <database>
+			<hostname>newdev</hostname>
+			<dbname>ddb02</dbname>
+			<dbtype>Oracle</dbtype>
+			<driver>oracle.jdbc.driver.OracleDriver</driver>
+			<url>jdbc:oracle:thin:@dbhost2.com:1521:ddb04</url>
+		</database>
+	</dbconfig>
+</config>
